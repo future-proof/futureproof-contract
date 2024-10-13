@@ -85,3 +85,5 @@ contract MockPoolAddressesProvider is IPoolAddressesProvider {
     function setPriceOracle(address) external override {}
     function setPriceOracleSentinel(address) external override {}
 }
+
+// forge script script/DeployFutureproof.s.sol:DeployFutureproof --rpc-url http://localhost:8545 --broadcast
