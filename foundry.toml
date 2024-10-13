@@ -5,4 +5,12 @@ libs = ["lib"]
 test = 'test'
 script = 'script'
 
+remappings = [
+    "@openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+    '@openzeppelin/=lib/openzeppelin-contracts/',
+    '@account-abstraction/=lib/account-abstraction/',
+    '@aave/core-v3/=lib/aave-v3-core/',
+]
+
+
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
